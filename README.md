@@ -5,3 +5,6 @@
 
 ## Contactame:
     Contactame si deseas aprender más sobre el desarrollo web
+
+## Technolgies
+    Front-enb y back-end
