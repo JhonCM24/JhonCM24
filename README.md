@@ -5,7 +5,3 @@
 
 ## Contactame:
     Contactame si deseas aprender más sobre el desarrollo web
-
-## Languages
-    Español nativo
-    Ingles básico
