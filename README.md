@@ -5,3 +5,7 @@
 
 ## Contactame:
     Contactame si deseas aprender más sobre el desarrollo web
+
+## Hobbies
+    Leer historias de fantasía espacial
+    video juegos
