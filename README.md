@@ -6,7 +6,12 @@
 ## Contactame:
     Contactame si deseas aprender más sobre el desarrollo web
 
-## languages
-    español nativo
-    ingles básico
-
+## Technolgies
+    Front-enb y back-end
+    
+## Skills
+    Rápido pensamiento lógico
+    
+## Hobbies
+    Leer historias de fantasía espacial
+    video juegos
