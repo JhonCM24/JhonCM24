@@ -15,3 +15,7 @@
 ## Hobbies
     Leer historias de fantasía espacial
     video juegos
+
+## languages
+    español nativo
+    ingles basico
