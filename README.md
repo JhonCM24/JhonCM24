@@ -8,3 +8,8 @@
 
 ## Technolgies
     Front-enb y back-end
+    
+## Hobbies
+    Leer historias de fantasía espacial
+    video juegos
+    
