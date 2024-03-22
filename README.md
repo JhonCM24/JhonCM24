@@ -9,7 +9,10 @@
 ## Technolgies
     Front-enb y back-end
     
+## Skills
+    Rápido pensamiento lógico
+    
 ## Hobbies
     Leer historias de fantasía espacial
     video juegos
-    
+
