@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luna Bella | Cosmética Natural</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <div class="brand">
+          <span class="logo">LB</span>
+          <div>
+            <p class="brand-name">Luna Bella</p>
+            <p class="brand-tagline">Cosmética natural y consciente</p>
+          </div>
+        </div>
+        <button class="nav-button" id="openCart" aria-label="Abrir carrito">
+          🛍️ <span id="cartCount">0</span>
+        </button>
+      </nav>
+      <div class="hero-content">
+        <div>
+          <h1>Todo lo que tu piel necesita en un solo lugar.</h1>
+          <p>
+            Descubre fórmulas veganas, sin crueldad animal y hechas con ingredientes
+            trazables. Personaliza tu rutina con productos fáciles de combinar.
+          </p>
+          <div class="hero-actions">
+            <button class="primary" id="scrollProducts">Explorar productos</button>
+            <button class="ghost" id="openConsultation">Pedir asesoría</button>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>Kit estrella de la semana</h3>
+          <p>Hidratación intensa + glow saludable</p>
+          <ul>
+            <li>Serum Vitamina C</li>
+            <li>Crema nutritiva de rosas</li>
+            <li>Mascarilla detox</li>
+          </ul>
+          <button class="primary" id="kitButton">Agregar kit al carrito</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="controls" id="products">
+        <div class="control">
+          <label for="search">Buscar producto</label>
+          <input id="search" type="search" placeholder="Serum, crema, mascarilla..." />
+        </div>
+        <div class="control">
+          <label for="category">Categoría</label>
+          <select id="category"></select>
+        </div>
+        <div class="control">
+          <label for="sort">Ordenar por</label>
+          <select id="sort">
+            <option value="featured">Destacados</option>
+            <option value="price-asc">Precio: menor a mayor</option>
+            <option value="price-desc">Precio: mayor a menor</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="skinType">Tipo de piel</label>
+          <select id="skinType"></select>
+        </div>
+      </section>
+
+      <section class="product-grid" id="productGrid"></section>
+
+      <section class="experience">
+        <div>
+          <h2>Agenda una asesoría express</h2>
+          <p>
+            Responde este formulario y recibe una recomendación personalizada en menos
+            de 24 horas.
+          </p>
+        </div>
+        <form class="consultation" id="consultationForm">
+          <div>
+            <label for="name">Nombre</label>
+            <input id="name" name="name" type="text" placeholder="Tu nombre" required />
+          </div>
+          <div>
+            <label for="email">Correo</label>
+            <input id="email" name="email" type="email" placeholder="tu@email.com" required />
+          </div>
+          <div>
+            <label for="concern">¿Qué buscas?</label>
+            <select id="concern" name="concern" required>
+              <option value="">Selecciona</option>
+              <option value="hidratacion">Hidratación</option>
+              <option value="manchas">Manchas</option>
+              <option value="sensibilidad">Sensibilidad</option>
+              <option value="antiage">Anti-edad</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">Cuéntanos más</label>
+            <textarea id="message" name="message" rows="3" placeholder="Detalles de tu piel"></textarea>
+          </div>
+          <button class="primary" type="submit">Enviar solicitud</button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <aside class="cart" id="cart">
+      <div class="cart-header">
+        <h3>Tu carrito</h3>
+        <button class="ghost" id="closeCart">Cerrar</button>
+      </div>
+      <div id="cartItems" class="cart-items"></div>
+      <div class="cart-summary">
+        <div>
+          <span>Subtotal</span>
+          <strong id="subtotal">$0</strong>
+        </div>
+        <button class="primary">Finalizar compra</button>
+        <small>Envío gratis en compras desde $150.000</small>
+      </div>
+    </aside>
+
+    <div class="overlay" id="overlay"></div>
+
+    <footer>
+      <div>
+        <h4>Luna Bella</h4>
+        <p>Autocuidado, ingredientes limpios, rituales diarios.</p>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <p>hola@lunabella.com</p>
+        <p>WhatsApp: +57 300 123 4567</p>
+      </div>
+      <div>
+        <h4>Showroom</h4>
+        <p>Cra. 15 # 98-22, Bogotá</p>
+        <p>Lun - Sáb / 9:00 - 19:00</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
